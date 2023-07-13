@@ -1,0 +1,3510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/christian/KiCad/SolarNode/SolarNode/SolarNode.kicad_sch</source>
+    <date>Fri 25 Mar 2022 08:05:32 AM CET</date>
+    <tool>Eeschema 6.0.2+dfsg-1~bpo11+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SolarNode</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2021-12-23</date>
+        <source>SolarNode.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/">
+      <title_block>
+        <title>SolarNode</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2021-12-23</date>
+        <source>BatteryCharger.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Supervisor/" tstamps="/136c12f3-c2e4-4465-a5a3-7a84125775bd/">
+      <title_block>
+        <title>SolarNode</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2021-12-23</date>
+        <source>Supervisor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/">
+      <title_block>
+        <title>SolarNode</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2021-12-23</date>
+        <source>DCDC.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/USBtoUART/" tstamps="/44be2a25-766c-499c-aa14-3a1cafd92104/">
+      <title_block>
+        <title>SolarNode</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2021-12-23</date>
+        <source>USBtoUART.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/">
+      <title_block>
+        <title>SolarNode</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2021-12-23</date>
+        <source>ESP32_WROOM_32E.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/IrradianceSensor/" tstamps="/5758e8e9-9376-441f-b071-0fa07fc961ab/">
+      <title_block>
+        <title>SolarNode</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2021-12-23</date>
+        <source>IrradianceSensor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXF.pdf</datasheet>
+      <fields>
+        <field name="MPN">16YXF100MEFCT16.3X11</field>
+        <field name="Manufacturer">Rubycon</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="MPN" value="16YXF100MEFCT16.3X11"/>
+      <property name="Manufacturer" value="Rubycon"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70131001-e5f3-4015-acb0-242b5f6dbffe</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36f90e1d-f7ec-4b81-8a1f-a307ef84a78d</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ede3b963-eb39-4291-a8af-e992370f3737</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>418e3823-5d48-4e1a-a5ed-001319e9d686</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19fe1dad-070f-49e4-af98-85be5c5f65b8</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>MBRA340</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MBRA340T3-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">MBRA340</field>
+        <field name="Manufacturer">onsemi</field>
+      </fields>
+      <libsource lib="Diode" part="MBRA340" description="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="MPN" value="MBRA340"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b17b8aed-dafe-4948-b434-7313ec36e784</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>DC!</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/150060SS75000.pdf</datasheet>
+      <fields>
+        <field name="MPN">150060SS75000</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="MPN" value="150060SS75000"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5d22395-98af-468f-93c4-9aaf93fc7062</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>MBRA340</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MBRA340T3-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">MBRA340</field>
+        <field name="Manufacturer">onsemi</field>
+      </fields>
+      <libsource lib="Diode" part="MBRA340" description="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="MPN" value="MBRA340"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1df641af-882e-4b17-ba26-01bdef00c862</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>BAT48JFILM</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/bat48.pdf</datasheet>
+      <fields>
+        <field name="MPN">BAT48JFILM</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+      </fields>
+      <libsource lib="Diode" part="BAT48JFILM" description="40V 0.35A Small Signal Schottky Diode, SOD-323"/>
+      <property name="MPN" value="BAT48JFILM"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e491237-98a6-4fab-b28a-de0908e8ecfd</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>BATT!</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/150060SS75000.pdf</datasheet>
+      <fields>
+        <field name="MPN">150060SS75000</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="MPN" value="150060SS75000"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c4e74d7-c7b7-4286-9b32-38e22c12946d</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask3mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>802b14af-bea6-47ea-9f8a-a81d136efa02</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask3mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>345504c3-8986-4414-812a-fa82d7526c5e</tstamps>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask3mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c19ff745-d873-4ca1-8f4d-840822e91e83</tstamps>
+    </comp>
+    <comp ref="FID4">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask3mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de7662ac-7872-4d34-8fbb-5b9ef738e118</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fec109ea-b532-432e-82cf-e347b7286d0d</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>933c15c2-37a0-4865-b76d-6fcf5731a08d</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a8e5b26-87de-48a9-8c94-0d182ca98cb1</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cd7201f-93fb-48e0-8f16-1e4dd5afc63e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>10V_MAX</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal</footprint>
+      <datasheet>https://www.cliffuk.co.uk/products/dcconnectors/FC681465S.pdf</datasheet>
+      <fields>
+        <field name="MPN">FC681465S</field>
+        <field name="Manufacturer">CLIFF Electronic Components Ltd</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="MPN" value="FC681465S"/>
+      <property name="Manufacturer" value="CLIFF Electronic Components Ltd"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6b0ce05-5724-47b4-8cdd-fe59da51085a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>TIA</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</datasheet>
+      <fields>
+        <field name="MPN">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x02_MountingPin" description="Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="S2B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7423c19f-4cdf-44ed-8014-f0260555b3bf</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>USB4110-GF-A_REVB:GCT_USB4110-GF-A_REVB</footprint>
+      <datasheet>https://gct.co/files/drawings/usb4110.pdf</datasheet>
+      <fields>
+        <field name="MPN">USB4110-GF-A</field>
+        <field name="Manufacturer">GCT</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="MPN" value="USB4110-GF-A"/>
+      <property name="Manufacturer" value="GCT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37b255e2-efee-4fcd-b8ae-9435d8ac473f</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x18</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="MPN">PH1-18-UA</field>
+        <field name="Manufacturer">Adam Tech</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x18" description="Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="PH1-18-UA"/>
+      <property name="Manufacturer" value="Adam Tech"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12d18a75-081d-4a67-ac6b-02281ff66f88</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x18</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="MPN">PH1-18-UA</field>
+        <field name="Manufacturer">Adam Tech</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x18" description="Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="PH1-18-UA"/>
+      <property name="Manufacturer" value="Adam Tech"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56a7f662-3982-4fac-9028-54903c83d4cf</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Li_3.7V</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</datasheet>
+      <fields>
+        <field name="MPN">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x02_MountingPin" description="Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="S2B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58739576-1456-4826-b893-185fa783ab1a</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="MPN">AO3400A</field>
+        <field name="Manufacturer">Alpha &amp; Omega Semiconductor Inc.</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="Manufacturer" value="Alpha &amp; Omega Semiconductor Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30be8123-641f-46a6-a3fa-eae5bc27e13b</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f491b89c-1d3a-4177-b925-d08e4963834d</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>103a679f-ae0f-4d69-8dd1-f1f92d645e81</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5.1K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75245cb1-c6b9-411a-a753-16f38a814df3</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40c937e5-7af8-4adc-9f97-c419cb5809fd</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17113d27-2d05-44cf-bdd0-71df8b525abe</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>BATT_SW</value>
+      <footprint>Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN</footprint>
+      <datasheet>https://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="MPN">JS202011JCQN</field>
+        <field name="Manufacturer">C&amp;K</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="MPN" value="JS202011JCQN"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a61055d-3c93-4e86-bbcf-0ebe5ff39163 70842859-b17f-48cf-b63d-b1a079892dce</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SYS_SW</value>
+      <footprint>Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN</footprint>
+      <datasheet>https://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="MPN">JS202011JCQN</field>
+        <field name="Manufacturer">C&amp;K</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="MPN" value="JS202011JCQN"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c14ee6e-e617-4fb9-8842-54d39de1faaa 1d4f1c14-b0cc-4a29-8a58-6b223ff07e98</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>NUP2202</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>http://www.onsemi.ru.com/pub_link/Collateral/NUP2202W1-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">NUP2202W1T2G</field>
+        <field name="Manufacturer">onsemi </field>
+      </fields>
+      <libsource lib="Power_Protection" part="NUP2202" description="Transient voltage suppressor designed to protect high speed data lines from ESD, EFT, and lightning"/>
+      <property name="MPN" value="NUP2202W1T2G"/>
+      <property name="Manufacturer" value="onsemi "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolarNode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4054f94a-4cd6-46dc-9902-90449c1175f0</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>e4e2402d-7fb8-4364-a1cb-506f608c88f0</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>1d7d1650-49b6-4477-8089-c6e3c7394430</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>29417ae6-1638-43fa-8dfe-ea6d15e981a8</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>6939d860-7d5c-4e22-a3e5-5adebda8c644</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>CHG</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/150060SS75000.pdf</datasheet>
+      <fields>
+        <field name="MPN">150060SS75000</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="MPN" value="150060SS75000"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>e8e0951b-afc6-42b5-8a24-772b994fdec0</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>PG</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/150060VS75000.pdf</datasheet>
+      <fields>
+        <field name="MPN">150060VS75000</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="MPN" value="150060VS75000"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>3c304436-d40e-4caf-9afa-50590e855e58</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>TS</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>3c56e684-b200-4c6d-af3d-ad7dd2595f77</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>0.15A</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>7b9d4b16-116b-4856-b3d7-db831682ebca</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>0.50A</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>2a32f650-8152-4938-8556-35d7b831339d</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>1.00A</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>81925fa0-1471-44f0-831a-c24193c8ccc2</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>ece1213f-5cd0-481a-997f-8d55e90257b6</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>aa4672c3-c7fb-4eb9-a872-21e0f669cc40</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>37a6f6f6-6465-4078-9fa1-7549fd979500</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>89859898-3f23-4963-b340-3cc74c051526</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>0R</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-070RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>7dc2d819-ad96-4415-b72c-8ac18a131825</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>03a89bca-7341-4bcf-9433-4ecbc5fd0125</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>5.90K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-075K9L</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-075K9L"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>187343ec-8d03-48d8-8153-6e016779df36</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1.78K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-071K78L</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071K78L"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>ba316f46-deb3-4bc4-b09f-caa41112c3d2</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>887R</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-07887RL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-07887RL"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>9c390b69-0fb9-496b-a9fc-e36bf23d3206</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>f5196299-bf52-4fc2-99f6-a7dbc9b5991a</tstamps>
+    </comp>
+    <comp ref="TH1">
+      <value>103AT (NC)</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>http://www.semitec.co.jp/uploads/english/sites/2/2017/03/P12-13-AT-Thermistor.pdf</datasheet>
+      <fields>
+        <field name="MPN">103AT-2</field>
+        <field name="Manufacturer">Semitec</field>
+      </fields>
+      <libsource lib="Device" part="Thermistor" description="Temperature dependent resistor"/>
+      <property name="MPN" value="103AT-2"/>
+      <property name="Manufacturer" value="Semitec"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>978ac5b0-d994-4436-b7b6-64c4060cb750</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>BQ24074RGT</value>
+      <footprint>Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/bq24074.pdf</datasheet>
+      <fields>
+        <field name="MPN">BQ24074RGT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="Battery_Management" part="BQ24074RGT" description="USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"/>
+      <property name="MPN" value="BQ24074RGT"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Sheetname" value="BatteryCharger"/>
+      <property name="Sheetfile" value="BatteryCharger.kicad_sch"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/98945077-58e1-4bfa-9871-04e47f3c7dd2/"/>
+      <tstamps>0796a2d5-bc72-4bb9-b471-3fc5d811a740</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value="Supervisor"/>
+      <property name="Sheetfile" value="Supervisor.kicad_sch"/>
+      <sheetpath names="/Supervisor/" tstamps="/136c12f3-c2e4-4465-a5a3-7a84125775bd/"/>
+      <tstamps>67c5f73f-6233-4216-9db7-d66393e9d33d</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value="Supervisor"/>
+      <property name="Sheetfile" value="Supervisor.kicad_sch"/>
+      <sheetpath names="/Supervisor/" tstamps="/136c12f3-c2e4-4465-a5a3-7a84125775bd/"/>
+      <tstamps>a4c92fc6-227e-4660-8228-aa2c41d0b1b5</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB102</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R9BB102"/>
+      <property name="Sheetname" value="Supervisor"/>
+      <property name="Sheetfile" value="Supervisor.kicad_sch"/>
+      <sheetpath names="/Supervisor/" tstamps="/136c12f3-c2e4-4465-a5a3-7a84125775bd/"/>
+      <tstamps>0f774f56-ad36-4257-8f40-46a92e383bb9</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB102</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R9BB102"/>
+      <property name="Sheetname" value="Supervisor"/>
+      <property name="Sheetfile" value="Supervisor.kicad_sch"/>
+      <sheetpath names="/Supervisor/" tstamps="/136c12f3-c2e4-4465-a5a3-7a84125775bd/"/>
+      <tstamps>d8c608d5-b976-404c-a797-a23020813adc</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>BAT48JFILM</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/bat48.pdf</datasheet>
+      <fields>
+        <field name="MPN">BAT48JFILM</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+      </fields>
+      <libsource lib="Diode" part="BAT48JFILM" description="40V 0.35A Small Signal Schottky Diode, SOD-323"/>
+      <property name="MPN" value="BAT48JFILM"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Sheetname" value="Supervisor"/>
+      <property name="Sheetfile" value="Supervisor.kicad_sch"/>
+      <sheetpath names="/Supervisor/" tstamps="/136c12f3-c2e4-4465-a5a3-7a84125775bd/"/>
+      <tstamps>643e772e-f700-4790-a3ed-c7bc3c425861</tstamps>
+    </comp>
+    <comp ref="JP7">
+      <value>SUP</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Supervisor"/>
+      <property name="Sheetfile" value="Supervisor.kicad_sch"/>
+      <sheetpath names="/Supervisor/" tstamps="/136c12f3-c2e4-4465-a5a3-7a84125775bd/"/>
+      <tstamps>a9b75437-d8eb-4e05-a9b4-d6f6ab213799</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>750K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-07750KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-07750KL"/>
+      <property name="Sheetname" value="Supervisor"/>
+      <property name="Sheetfile" value="Supervisor.kicad_sch"/>
+      <sheetpath names="/Supervisor/" tstamps="/136c12f3-c2e4-4465-a5a3-7a84125775bd/"/>
+      <tstamps>355f1273-0710-4515-9228-ffc0b9e146b0</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10M</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0710ML</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-0710ML"/>
+      <property name="Sheetname" value="Supervisor"/>
+      <property name="Sheetfile" value="Supervisor.kicad_sch"/>
+      <sheetpath names="/Supervisor/" tstamps="/136c12f3-c2e4-4465-a5a3-7a84125775bd/"/>
+      <tstamps>5337d316-0688-4025-b792-ca35eaeca5da</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>422K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-07422KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-07422KL"/>
+      <property name="Sheetname" value="Supervisor"/>
+      <property name="Sheetfile" value="Supervisor.kicad_sch"/>
+      <sheetpath names="/Supervisor/" tstamps="/136c12f3-c2e4-4465-a5a3-7a84125775bd/"/>
+      <tstamps>3eb335c8-040d-4e16-bddf-878f69a028c8</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>698K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-07698KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-07698KL"/>
+      <property name="Sheetname" value="Supervisor"/>
+      <property name="Sheetfile" value="Supervisor.kicad_sch"/>
+      <sheetpath names="/Supervisor/" tstamps="/136c12f3-c2e4-4465-a5a3-7a84125775bd/"/>
+      <tstamps>15fd9bfc-420a-4cb7-8e3f-088394fcf8a3</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>453K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-07453KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-07453KL"/>
+      <property name="Sheetname" value="Supervisor"/>
+      <property name="Sheetfile" value="Supervisor.kicad_sch"/>
+      <sheetpath names="/Supervisor/" tstamps="/136c12f3-c2e4-4465-a5a3-7a84125775bd/"/>
+      <tstamps>f4e8d1fe-631b-4339-803c-0f5f7cf25022</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TPS3780A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps3780.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS3780ADBVT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="Power_Supervisor" part="TPS3780" description="Dual-Channel, Low-Power, High-Accuracy Voltage Detector, SOT-23-6"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="TPS3780ADBVT"/>
+      <property name="Sheetname" value="Supervisor"/>
+      <property name="Sheetfile" value="Supervisor.kicad_sch"/>
+      <sheetpath names="/Supervisor/" tstamps="/136c12f3-c2e4-4465-a5a3-7a84125775bd/"/>
+      <tstamps>34fad17b-56f4-40d3-8af8-6821be8f6327</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>387cbc09-18cf-4407-ae0f-e1cf479a876e</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>0a36eedc-5f04-47d7-a16c-1422d07058fb</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>ce0baa85-3db5-4bc9-95ab-bca5893456c8</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>e1139f84-86c3-4224-8aea-2b3d7d7fa8db</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>5ef9cf96-8d69-40d8-bc8a-8afa5ce5c027</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>9880cfa4-3cad-4918-93e5-a5e8159a1739</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>9cca5b09-7c21-4a0a-ae94-1a7f9fe351ac</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>1.8n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB182</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R9BB182"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>b906e76f-2692-4336-836c-89984899cf15</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>0148adfc-c4e8-482f-9b51-eddf24d4984b</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>1bcc76bf-f321-422d-8355-63dfe9c7dcda</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>213d21d9-8c92-4d13-a431-b7869d785db6</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>3V</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/150060VS75000.pdf</datasheet>
+      <fields>
+        <field name="MPN">150060VS75000</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="MPN" value="150060VS75000"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>04109551-10f1-427b-ad34-c4a3e3947986</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>3VA</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/150060VS75000.pdf</datasheet>
+      <fields>
+        <field name="MPN">150060VS75000</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="MPN" value="150060VS75000"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>67fbfae5-9666-4cce-a0df-e6b9c36e0fe5</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>5V</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/150060VS75000.pdf</datasheet>
+      <fields>
+        <field name="MPN">150060VS75000</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="MPN" value="150060VS75000"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>c61ee1f5-d077-4134-b686-3355b568803d</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>MBR1020VL</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MBR1020VL-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">MBR1020VL</field>
+        <field name="Manufacturer">onsemi</field>
+      </fields>
+      <libsource lib="Diode" part="MBR1020VL" description="20V, 1A, 340 mV, Schottky Diode Rectifier, SOD-123F"/>
+      <property name="MPN" value="MBR1020VL"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>248a2dbf-e957-4174-9e73-517395188648</tstamps>
+    </comp>
+    <comp ref="JP8">
+      <value>BOOST</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>20f6e488-46ed-46b8-b62f-527a4676cb21</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>8.2u</value>
+      <footprint>Inductor_SMD:L_Vishay_IFSC-1515AH_4x4x1.8mm</footprint>
+      <datasheet>https://www.vishay.com/docs/34295/sc15ah01.pdf</datasheet>
+      <fields>
+        <field name="MPN">IFSC1515AHER8R2M01</field>
+        <field name="Manufacturer">Vishay Dale</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="MPN" value="IFSC1515AHER8R2M01"/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>b540f2f4-12af-406d-b18a-67be44ed0c56</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>200K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-07200KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-07200KL"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>aaea8793-2326-4373-8200-305c1e28c582</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>74a92b7c-0efe-4ba6-a607-6f7b088452bb</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>1K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>9376703f-4fa4-46fd-86be-72444e78aa50</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>1K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>632fbc98-ce7e-49dc-933f-cc727a392b18</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>3d27d4d4-ef0e-48df-8d96-ee30c220e836</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>30K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0730KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-0730KL"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>5d1510b9-5691-4add-a0a0-580b28db2c28</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>b996c16e-cb7f-4a72-8142-d391bd826b78</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>10K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>13427ef6-3da1-48e7-b084-d1e1493acda1</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>LED</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf</datasheet>
+      <fields>
+        <field name="MPN">B3U-1000P</field>
+        <field name="Manufacturer">Omron Electronics Inc-EMC Div</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="MPN" value="B3U-1000P"/>
+      <property name="Manufacturer" value="Omron Electronics Inc-EMC Div"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>1e6bdc72-5429-4fea-bfe1-7bd7188a6b97</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>RT9080-33GJ5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.richtek.com/assets/product_file/RT9080/DS9080-05.pdf</datasheet>
+      <fields>
+        <field name="MPN">RT9080-33GJ5</field>
+        <field name="Manufacturer">Richtek USA Inc.</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AP2112K-3.3" description="600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"/>
+      <property name="MPN" value="RT9080-33GJ5"/>
+      <property name="Manufacturer" value="Richtek USA Inc."/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>221e7b9a-604b-471e-9bb5-d7a29a2afc1c</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>RT9080-33GJ5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.richtek.com/assets/product_file/RT9080/DS9080-05.pdf</datasheet>
+      <fields>
+        <field name="MPN">RT9080-33GJ5</field>
+        <field name="Manufacturer">Richtek USA Inc.</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AP2112K-3.3" description="600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"/>
+      <property name="MPN" value="RT9080-33GJ5"/>
+      <property name="Manufacturer" value="Richtek USA Inc."/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>5488ab63-0c87-4f1e-984f-bc6cdc512a66</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>LM2735XMF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2735.pdf</datasheet>
+      <fields>
+        <field name="MPN">LM2735XMF/NOPB</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="LM2735XMF" description="LM27313, 2.1A, 24Vout Boost/FlybacK/SEPIC Voltage Regulator, 520kHz/1.6MHz Frequency,"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="LM2735XMF/NOPB"/>
+      <property name="Sheetname" value="DCDC"/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <sheetpath names="/DCDC/" tstamps="/e2605cfa-c4c7-42e5-ae3f-89d4d007c905/"/>
+      <tstamps>8ce269b2-345d-418b-b0e8-e5b8989bb76b</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R8BB105</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R8BB105"/>
+      <property name="Sheetname" value="USBtoUART"/>
+      <property name="Sheetfile" value="USBtoUART.kicad_sch"/>
+      <sheetpath names="/USBtoUART/" tstamps="/44be2a25-766c-499c-aa14-3a1cafd92104/"/>
+      <tstamps>ecaacd0b-1185-452c-959f-b5f0ae5930b1</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>MUN5214DW1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/dtc114yd-d.pdf</datasheet>
+      <fields>
+        <field name="MPN">MUN5214DW1T1G</field>
+        <field name="Manufacturer">onsemi</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MUN5211DW1" description="0.1A Ic, 50V Vce, Dual NPN Bias Resistor Transistors, SOT-363"/>
+      <property name="MPN" value="MUN5214DW1T1G"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value="USBtoUART"/>
+      <property name="Sheetfile" value="USBtoUART.kicad_sch"/>
+      <sheetpath names="/USBtoUART/" tstamps="/44be2a25-766c-499c-aa14-3a1cafd92104/"/>
+      <tstamps>fdd352ef-4938-4dbf-9d38-cabefff5d9ba 845cf4d3-925e-49e7-ae16-97ae3cd2a548</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>CP2104</value>
+      <footprint>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2104.pdf</datasheet>
+      <fields>
+        <field name="MPN">CP2104-F03-GM</field>
+        <field name="Manufacturer">Silicon Labs</field>
+      </fields>
+      <libsource lib="Interface_USB" part="CP2104" description="Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN-24"/>
+      <property name="MPN" value="CP2104-F03-GM"/>
+      <property name="Manufacturer" value="Silicon Labs"/>
+      <property name="Sheetname" value="USBtoUART"/>
+      <property name="Sheetfile" value="USBtoUART.kicad_sch"/>
+      <sheetpath names="/USBtoUART/" tstamps="/44be2a25-766c-499c-aa14-3a1cafd92104/"/>
+      <tstamps>ce15c2ce-1278-426e-ab04-0361f5d87972</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>9c4d70cf-89ba-41a8-a5d6-3d6c65ca2307</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>7a36b342-6e81-41ec-b264-6a409d0705e5</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>a9776719-70e7-4e48-9c42-6e0392f3838b</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603MRX5R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603MRX5R7BB106"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>5ef86e0a-ef77-4308-ad9a-b554840137a2</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R8BB105</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R8BB105"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>556cf9f9-3db8-4989-abea-fbf2b1ddf405</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>12p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRNPO9BN120</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRNPO9BN120"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>1e0af098-1df3-409e-8e32-8430a87bb5e2</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>12p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRNPO9BN120</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRNPO9BN120"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>46bf2845-0891-4896-8f82-8eda16d9bbb2</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>94282cc3-b811-467b-a737-4fac92c16453</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>IO2</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/150060VS75000.pdf</datasheet>
+      <fields>
+        <field name="MPN">150060VS75000</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="MPN" value="150060VS75000"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>c8fd25b8-a69f-471a-b245-dbe9baf03474</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>BAT48JFILM</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/bat48.pdf</datasheet>
+      <fields>
+        <field name="MPN">BAT48JFILM</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+      </fields>
+      <libsource lib="Diode" part="BAT48JFILM" description="40V 0.35A Small Signal Schottky Diode, SOD-323"/>
+      <property name="MPN" value="BAT48JFILM"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>8dd12cba-1a80-44a7-8f95-da7c139dbd67</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>BAT48JFILM</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/bat48.pdf</datasheet>
+      <fields>
+        <field name="MPN">BAT48JFILM</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+      </fields>
+      <libsource lib="Diode" part="BAT48JFILM" description="40V 0.35A Small Signal Schottky Diode, SOD-323"/>
+      <property name="MPN" value="BAT48JFILM"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>43da6c74-db49-468a-b04c-89c9445c1cf8</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>1M</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-071ML</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071ML"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>86cbf9c5-9b5e-4754-b902-202b078634aa</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>1M</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-071ML</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071ML"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>2a161516-5b51-40ef-801b-a1728e90aad6</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>1M</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-071ML</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071ML"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>1af46c84-c8cb-4f6c-8092-82983c0af320</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>10K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>b482e25b-6a0b-41fa-9f53-116b575cf70a</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>10K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>477c9064-dcae-4853-800d-1c7026a4df3e</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>2.2K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-072K2L"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>11895279-2026-4f73-9aa5-f247421dd38a</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>2.2K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-072K2L"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>a1a1fb28-35fb-4a76-8bc9-26295350aa19</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>1K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>2824fc6a-3b46-4cb5-b25f-85c3b793aedf</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>10K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>c295a2c5-accc-40b1-97bc-f1a9502215e9</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>7.5M</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-077M5L</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-077M5L"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>f574adc1-514f-4152-af8a-b15524b97f36</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>10K</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>5cc59668-1c8c-4690-94f5-5b936823b429</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>0R</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-070RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>c78a673f-7f9f-4da6-ad55-2e02f7939a0e</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>0R</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-070RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>6a390c70-a251-4372-8d7c-08fc0ff3ce1b</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>EN</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf</datasheet>
+      <fields>
+        <field name="MPN">B3U-1000P</field>
+        <field name="Manufacturer">Omron Electronics Inc-EMC Div</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="MPN" value="B3U-1000P"/>
+      <property name="Manufacturer" value="Omron Electronics Inc-EMC Div"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>e2287032-eb32-4a45-9384-7971c1df50d6</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>IO0</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf</datasheet>
+      <fields>
+        <field name="MPN">B3U-1000P</field>
+        <field name="Manufacturer">Omron Electronics Inc-EMC Div</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="MPN" value="B3U-1000P"/>
+      <property name="Manufacturer" value="Omron Electronics Inc-EMC Div"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>a103682e-d7fb-4f7f-aeaf-d8392acc1a3b</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>ESP32-WROOM-32E</value>
+      <footprint>RF_Module:ESP32-WROOM-32</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="MPN">ESP32-WROOM-32E (4MB)</field>
+        <field name="Manufacturer">Espressif Systems</field>
+      </fields>
+      <libsource lib="RF_Module" part="ESP32-WROOM-32" description="RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"/>
+      <property name="MPN" value="ESP32-WROOM-32E (4MB)"/>
+      <property name="Manufacturer" value="Espressif Systems"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>e6086478-501b-45ee-8cd4-461e6df49961</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768KHz</value>
+      <footprint>Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm</footprint>
+      <datasheet>https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135&amp;lang=en</datasheet>
+      <fields>
+        <field name="MPN">FC-135 32.7680KA-K0</field>
+        <field name="Manufacturer">EPSON</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="MPN" value="FC-135 32.7680KA-K0"/>
+      <property name="Manufacturer" value="EPSON"/>
+      <property name="Sheetname" value="ESP32_WROOM_32E"/>
+      <property name="Sheetfile" value="ESP32_WROOM_32E.kicad_sch"/>
+      <sheetpath names="/ESP32_WROOM_32E/" tstamps="/b2732ae0-0902-4410-945a-e49794315d88/"/>
+      <tstamps>ce40d9e7-0ab4-4a45-be31-cb9eafb2ccb1</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="IrradianceSensor"/>
+      <property name="Sheetfile" value="IrradianceSensor.kicad_sch"/>
+      <sheetpath names="/IrradianceSensor/" tstamps="/5758e8e9-9376-441f-b071-0fa07fc961ab/"/>
+      <tstamps>e7056469-c3ec-4c60-8bf8-128569fdf625</tstamps>
+    </comp>
+    <comp ref="C45">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="IrradianceSensor"/>
+      <property name="Sheetfile" value="IrradianceSensor.kicad_sch"/>
+      <sheetpath names="/IrradianceSensor/" tstamps="/5758e8e9-9376-441f-b071-0fa07fc961ab/"/>
+      <tstamps>0c37604e-5e10-4775-912e-24cfd38c8cc6</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>16.5R</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-0716R5L</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0716R5L"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="IrradianceSensor"/>
+      <property name="Sheetfile" value="IrradianceSensor.kicad_sch"/>
+      <sheetpath names="/IrradianceSensor/" tstamps="/5758e8e9-9376-441f-b071-0fa07fc961ab/"/>
+      <tstamps>7e449ccf-8d5d-42b9-a50e-ff2d68f92752</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>2R</value>
+      <footprint>SolarNode:R_0603_1608Metric_0.65</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-072RL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-072RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value="IrradianceSensor"/>
+      <property name="Sheetfile" value="IrradianceSensor.kicad_sch"/>
+      <sheetpath names="/IrradianceSensor/" tstamps="/5758e8e9-9376-441f-b071-0fa07fc961ab/"/>
+      <tstamps>d62aeb1a-1f80-4ff3-8b4b-bafacf12d4ae</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>OPA2356xxD</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/opa2356.pdf</datasheet>
+      <fields>
+        <field name="MPN">OPA2356AIDGKR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="OPA2356xxD" description="Dual High Speed CMOS Operational Amplifiers, SOIC-8"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="OPA2356AIDGKR"/>
+      <property name="Sheetname" value="IrradianceSensor"/>
+      <property name="Sheetfile" value="IrradianceSensor.kicad_sch"/>
+      <sheetpath names="/IrradianceSensor/" tstamps="/5758e8e9-9376-441f-b071-0fa07fc961ab/"/>
+      <tstamps>9ac73cf4-7116-459a-995d-b6e5371f9f90 74e0441a-23aa-4940-bf7b-489de70c34ad 604c078b-789c-4176-809c-ef9193be9eca</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>MCP1501-10xCH</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf</datasheet>
+      <fields>
+        <field name="MPN">MCP1501T-10E/CHY</field>
+        <field name="Manufacturer">Microchip Technology</field>
+      </fields>
+      <libsource lib="Reference_Voltage" part="MCP1501-10xCH" description="1.024V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6"/>
+      <property name="MPN" value="MCP1501T-10E/CHY"/>
+      <property name="Manufacturer" value="Microchip Technology"/>
+      <property name="Sheetname" value="IrradianceSensor"/>
+      <property name="Sheetfile" value="IrradianceSensor.kicad_sch"/>
+      <sheetpath names="/IrradianceSensor/" tstamps="/5758e8e9-9376-441f-b071-0fa07fc961ab/"/>
+      <tstamps>1467d80b-4f31-484d-98d6-6b0e972a8f9a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="OPA2356xxD">
+      <description>Dual High Speed CMOS Operational Amplifiers, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/opa2356.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPA2356xxD</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/opa2356.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Battery_Management" part="BQ24074RGT">
+      <description>USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/bq24074.pdf</docs>
+      <footprints>
+        <fp>VQFN*1EP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ24074RGT</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/bq24074.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TS" type="passive"/>
+        <pin num="2" name="BAT" type="power_out"/>
+        <pin num="3" name="BAT" type="passive"/>
+        <pin num="4" name="~{CE}" type="input"/>
+        <pin num="5" name="EN2" type="input"/>
+        <pin num="6" name="EN1" type="input"/>
+        <pin num="7" name="~{PGOOD}" type="open_collector"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="~{CHG}" type="open_collector"/>
+        <pin num="10" name="OUT" type="power_out"/>
+        <pin num="11" name="OUT" type="passive"/>
+        <pin num="12" name="ILIM" type="passive"/>
+        <pin num="13" name="IN" type="power_in"/>
+        <pin num="14" name="TMR" type="input"/>
+        <pin num="15" name="ITERM" type="input"/>
+        <pin num="16" name="ISET" type="passive"/>
+        <pin num="17" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x18">
+      <description>Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x18</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_01x02_MountingPin">
+      <description>Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_MountingPin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Filled">
+      <description>Light emitting diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Filled</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor">
+      <description>Temperature dependent resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT48JFILM">
+      <description>40V 0.35A Small Signal Schottky Diode, SOD-323</description>
+      <docs>www.st.com/resource/en/datasheet/bat48.pdf</docs>
+      <footprints>
+        <fp>D*SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT48JFILM</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+        <field name="Datasheet">www.st.com/resource/en/datasheet/bat48.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MBR1020VL">
+      <description>20V, 1A, 340 mV, Schottky Diode Rectifier, SOD-123F</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MBR1020VL-D.PDF</docs>
+      <footprints>
+        <fp>D*SOD?123F*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBR1020VL</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/MBR1020VL-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MBRA340">
+      <description>40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MBRA340T3-D.PDF</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBRA340</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/MBRA340T3-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="CP2104">
+      <description>Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN-24</description>
+      <docs>https://www.silabs.com/documents/public/data-sheets/cp2104.pdf</docs>
+      <footprints>
+        <fp>QFN*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP2104</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</field>
+        <field name="Datasheet">https://www.silabs.com/documents/public/data-sheets/cp2104.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RI}" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="D-" type="bidirectional"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="REGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="~{RST}" type="bidirectional"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="GPIO.3" type="bidirectional"/>
+        <pin num="12" name="RS485/GPIO.2" type="bidirectional"/>
+        <pin num="13" name="RXT/GPIO.1" type="bidirectional"/>
+        <pin num="14" name="TXT/GPIO.0" type="bidirectional"/>
+        <pin num="15" name="~{SUSPEND}" type="output"/>
+        <pin num="16" name="VPP" type="passive"/>
+        <pin num="17" name="SUSPEND" type="output"/>
+        <pin num="18" name="~{CTS}" type="input"/>
+        <pin num="19" name="~{RTS}" type="output"/>
+        <pin num="20" name="RXD" type="input"/>
+        <pin num="21" name="TXD" type="output"/>
+        <pin num="22" name="~{DSR}" type="input"/>
+        <pin num="23" name="~{DTR}" type="output"/>
+        <pin num="24" name="~{DCD}" type="input"/>
+        <pin num="25" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power_Protection" part="NUP2202">
+      <description>Transient voltage suppressor designed to protect high speed data lines from ESD, EFT, and lightning</description>
+      <docs>http://www.onsemi.ru.com/pub_link/Collateral/NUP2202W1-D.PDF</docs>
+      <footprints>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NUP2202</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">http://www.onsemi.ru.com/pub_link/Collateral/NUP2202W1-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="no_connect"/>
+        <pin num="4" name="" type="no_connect"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supervisor" part="TPS3780">
+      <description>Dual-Channel, Low-Power, High-Accuracy Voltage Detector, SOT-23-6</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps3780.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3780</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps3780.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="OUT1" type="open_collector"/>
+        <pin num="3" name="OUT2" type="open_collector"/>
+        <pin num="4" name="SENSE2" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SENSE1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP32-WROOM-32">
+      <description>RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>ESP32?WROOM?32*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32</field>
+        <field name="Footprint">RF_Module:ESP32-WROOM-32</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="bidirectional"/>
+        <pin num="9" name="IO33" type="bidirectional"/>
+        <pin num="10" name="IO25" type="bidirectional"/>
+        <pin num="11" name="IO26" type="bidirectional"/>
+        <pin num="12" name="IO27" type="bidirectional"/>
+        <pin num="13" name="IO14" type="bidirectional"/>
+        <pin num="14" name="IO12" type="bidirectional"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="IO13" type="bidirectional"/>
+        <pin num="17" name="SHD/SD2" type="bidirectional"/>
+        <pin num="18" name="SWP/SD3" type="bidirectional"/>
+        <pin num="19" name="SCS/CMD" type="bidirectional"/>
+        <pin num="20" name="SCK/CLK" type="bidirectional"/>
+        <pin num="21" name="SDO/SD0" type="bidirectional"/>
+        <pin num="22" name="SDI/SD1" type="bidirectional"/>
+        <pin num="23" name="IO15" type="bidirectional"/>
+        <pin num="24" name="IO2" type="bidirectional"/>
+        <pin num="25" name="IO0" type="bidirectional"/>
+        <pin num="26" name="IO4" type="bidirectional"/>
+        <pin num="27" name="IO16" type="bidirectional"/>
+        <pin num="28" name="IO17" type="bidirectional"/>
+        <pin num="29" name="IO5" type="bidirectional"/>
+        <pin num="30" name="IO18" type="bidirectional"/>
+        <pin num="31" name="IO19" type="bidirectional"/>
+        <pin num="32" name="NC" type="no_connect"/>
+        <pin num="33" name="IO21" type="bidirectional"/>
+        <pin num="34" name="RXD0/IO3" type="bidirectional"/>
+        <pin num="35" name="TXD0/IO1" type="bidirectional"/>
+        <pin num="36" name="IO22" type="bidirectional"/>
+        <pin num="37" name="IO23" type="bidirectional"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="MCP1501-10xCH">
+      <description>1.024V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1501-10xCH</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="~{SHDN}" type="input"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP2112K-3.3">
+      <description>600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2112.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2112K-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2112.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LM2735XMF">
+      <description>LM27313, 2.1A, 24Vout Boost/FlybacK/SEPIC Voltage Regulator, 520kHz/1.6MHz Frequency,</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2735.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2735XMF</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2735.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="MUN5211DW1">
+      <description>0.1A Ic, 50V Vce, Dual NPN Bias Resistor Transistors, SOT-363</description>
+      <docs>http://www.onsemi.com/pub/Collateral/DTC114ED-D.PDF</docs>
+      <footprints>
+        <fp>SOT*363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MUN5211DW1</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/DTC114ED-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E2" type="passive"/>
+        <pin num="2" name="B2" type="input"/>
+        <pin num="3" name="C1" type="passive"/>
+        <pin num="4" name="E1" type="passive"/>
+        <pin num="5" name="B1" type="input"/>
+        <pin num="6" name="C2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3400A">
+      <description>30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3400A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>/usr/share/kicad/symbols//Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Battery_Management">
+      <uri>/usr/share/kicad/symbols//Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>/usr/share/kicad/symbols//Connector_Generic_MountingPin.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>/usr/share/kicad/symbols//Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>/usr/share/kicad/symbols//Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="Power_Supervisor">
+      <uri>C:/Users/manue/Desktop/kicad_lib/symbols/Power_Supervisor.kicad_sym</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>/usr/share/kicad/symbols//RF_Module.kicad_sym</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/usr/share/kicad/symbols//Reference_Voltage.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/usr/share/kicad/symbols//Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3VA">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="J5" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U8" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U9" pin="4" pinfunction="~{SHDN}" pintype="input"/>
+      <node ref="U9" pin="6" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="J5" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U7" pin="2" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J5" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="+BATT">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="BAT" pintype="power_out"/>
+      <node ref="U1" pin="3" pinfunction="BAT" pintype="passive"/>
+    </net>
+    <net code="5" name="-BATT">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/BOOST_EN">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="EN" pintype="input"/>
+      <node ref="U7" pin="12" pinfunction="IO27" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/BatteryCharger/VOUT">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW2" pin="5" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U1" pin="11" pinfunction="OUT" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="EN2" pintype="input"/>
+    </net>
+    <net code="8" name="/D+">
+      <node ref="J3" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J3" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U10" pin="1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/D-">
+      <node ref="J3" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J3" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U10" pin="6" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/DC_IN">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/EN">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="OUT1" pintype="open_collector"/>
+      <node ref="U7" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="12" name="/ESP32_WROOM_32E/BATT_ADC">
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="SENSOR_VN" pintype="input"/>
+    </net>
+    <net code="13" name="/ESP32_WROOM_32E/SOLAR_ISC_ADC">
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="SENSOR_VP" pintype="input"/>
+    </net>
+    <net code="14" name="/ESP32_WROOM_32E/~{CHG_IO}">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="IO34" pintype="input"/>
+    </net>
+    <net code="15" name="/ESP32_WROOM_32E/~{PGOOD_IO}">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="IO35" pintype="input"/>
+    </net>
+    <net code="16" name="/IO0{slash}BUTTON_IO">
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="J5" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="Q2" pin="6" pinfunction="C2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U7" pin="25" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/IO1{slash}TXD0">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U6" pin="20" pinfunction="RXD" pintype="input"/>
+      <node ref="U7" pin="35" pinfunction="TXD0/IO1" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/IO2{slash}LED_IO">
+      <node ref="J5" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="U7" pin="24" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/IO3{slash}RXD0">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U6" pin="21" pinfunction="TXD" pintype="output"/>
+      <node ref="U7" pin="34" pinfunction="RXD0/IO3" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/IO5{slash}SPI3CS0">
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U7" pin="29" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/IO12{slash}MTDI">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U7" pin="14" pinfunction="IO12" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/IO13{slash}MTCK">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U7" pin="16" pinfunction="IO13" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/IO14{slash}MTMS">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U7" pin="13" pinfunction="IO14" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/IO15{slash}MTDO">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U7" pin="23" pinfunction="IO15" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/IO16{slash}U2RXD">
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U7" pin="27" pinfunction="IO16" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/IO17{slash}U2TXD">
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U7" pin="28" pinfunction="IO17" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/IO18{slash}SPI3SCLK">
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U7" pin="30" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/IO19{slash}SPI3MISO">
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U7" pin="31" pinfunction="IO19" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/IO21{slash}SDA">
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U7" pin="33" pinfunction="IO21" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/IO22{slash}SCL">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="U7" pin="36" pinfunction="IO22" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/IO23{slash}SPI3MOSI">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U7" pin="37" pinfunction="IO23" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/IO25{slash}DAC1">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U7" pin="10" pinfunction="IO25" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/IO32{slash}XTAL_32K_P">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="IO32" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/IO33{slash}XTAL_32K_N">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="U7" pin="9" pinfunction="IO33" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/ISET">
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="ISET" pintype="passive"/>
+    </net>
+    <net code="36" name="/IrradianceSensor/1.024V">
+      <node ref="U8" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U9" pin="1" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="37" name="/LDO_AUX_EN">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U7" pin="26" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/LDO_EN">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="OUT2" pintype="open_collector"/>
+      <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="39" name="/SOLAR+">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U8" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U8" pin="7" pintype="output"/>
+    </net>
+    <net code="40" name="/SOLAR-">
+      <node ref="C45" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="41" name="/SOLAR_ISC">
+      <node ref="C45" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U8" pin="1" pintype="output"/>
+    </net>
+    <net code="42" name="/Supervisor/+VBATT_SUP">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="JP7" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="43" name="/USBtoUART/~{DTR}">
+      <node ref="Q2" pin="1" pinfunction="E2" pintype="passive"/>
+      <node ref="Q2" pin="5" pinfunction="B1" pintype="input"/>
+      <node ref="U6" pin="23" pinfunction="~{DTR}" pintype="output"/>
+    </net>
+    <net code="44" name="/USBtoUART/~{RTS}">
+      <node ref="Q2" pin="2" pinfunction="B2" pintype="input"/>
+      <node ref="Q2" pin="4" pinfunction="E1" pintype="passive"/>
+      <node ref="U6" pin="19" pinfunction="~{RTS}" pintype="output"/>
+    </net>
+    <net code="45" name="/VBUS_IN">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J3" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J3" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J3" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="U10" pin="5" pintype="passive"/>
+    </net>
+    <net code="46" name="/~{CE}">
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="~{CE}" pintype="input"/>
+      <node ref="U7" pin="11" pinfunction="IO26" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/~{CHG}">
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="~{CHG}" pintype="open_collector"/>
+    </net>
+    <net code="48" name="/~{PGOOD}">
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="~{PGOOD}" pintype="open_collector"/>
+    </net>
+    <net code="49" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="J3" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J4" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J5" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J5" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J5" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="TH1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="VSS" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="EN1" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="25" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="15" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="38" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="39" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U9" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U9" pin="5" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="SENSE2" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="SENSE1" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(C24-Pad1)">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(C25-Pad2)">
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(C27-Pad1)">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="JP8" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(C40-Pad1)">
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(C41-Pad1)">
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="65" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(J3-PadA5)">
+      <node ref="J3" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(J3-PadB5)">
+      <node ref="J3" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW1" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(JP3-Pad2)">
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(JP4-Pad2)">
+      <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(JP5-Pad2)">
+      <node ref="JP5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(JP6-Pad2)">
+      <node ref="JP6" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="ITERM" pintype="input"/>
+    </net>
+    <net code="75" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="TMR" pintype="input"/>
+    </net>
+    <net code="76" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="ILIM" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="TH1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="TS" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(U6-Pad5)">
+      <node ref="U6" pin="5" pinfunction="VIO" pintype="power_in"/>
+      <node ref="U6" pin="6" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="79" name="VBUS">
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="REGIN" pintype="power_in"/>
+      <node ref="U6" pin="8" pinfunction="VBUS" pintype="input"/>
+    </net>
+    <net code="80" name="VCC">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="JP8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW2" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="81" name="VDC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="82" name="unconnected-(J2-PadMP)">
+      <node ref="J2" pin="MP" pinfunction="MountPin" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(J3-PadA8)">
+      <node ref="J3" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(J3-PadB8)">
+      <node ref="J3" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(J3-PadS1)">
+      <node ref="J3" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(J6-PadMP)">
+      <node ref="J6" pin="MP" pinfunction="MountPin" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(SW1-Pad3)">
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(SW1-Pad6)">
+      <node ref="SW1" pin="6" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(SW2-Pad3)">
+      <node ref="SW2" pin="3" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(SW2-Pad6)">
+      <node ref="SW2" pin="6" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U3-Pad4)">
+      <node ref="U3" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U4-Pad4)">
+      <node ref="U4" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U6-Pad1)">
+      <node ref="U6" pin="1" pinfunction="~{RI}" pintype="input+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U6-Pad9)">
+      <node ref="U6" pin="9" pinfunction="~{RST}" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U6-Pad10)">
+      <node ref="U6" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U6-Pad11)">
+      <node ref="U6" pin="11" pinfunction="GPIO.3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U6-Pad12)">
+      <node ref="U6" pin="12" pinfunction="RS485/GPIO.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U6-Pad13)">
+      <node ref="U6" pin="13" pinfunction="RXT/GPIO.1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U6-Pad14)">
+      <node ref="U6" pin="14" pinfunction="TXT/GPIO.0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U6-Pad15)">
+      <node ref="U6" pin="15" pinfunction="~{SUSPEND}" pintype="output+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U6-Pad16)">
+      <node ref="U6" pin="16" pinfunction="VPP" pintype="passive+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U6-Pad17)">
+      <node ref="U6" pin="17" pinfunction="SUSPEND" pintype="output+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U6-Pad18)">
+      <node ref="U6" pin="18" pinfunction="~{CTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U6-Pad22)">
+      <node ref="U6" pin="22" pinfunction="~{DSR}" pintype="input+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U6-Pad24)">
+      <node ref="U6" pin="24" pinfunction="~{DCD}" pintype="input+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U7-Pad17)">
+      <node ref="U7" pin="17" pinfunction="SHD/SD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U7-Pad18)">
+      <node ref="U7" pin="18" pinfunction="SWP/SD3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U7-Pad19)">
+      <node ref="U7" pin="19" pinfunction="SCS/CMD" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U7-Pad20)">
+      <node ref="U7" pin="20" pinfunction="SCK/CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U7-Pad21)">
+      <node ref="U7" pin="21" pinfunction="SDO/SD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U7-Pad22)">
+      <node ref="U7" pin="22" pinfunction="SDI/SD1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U7-Pad32)">
+      <node ref="U7" pin="32" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U10-Pad3)">
+      <node ref="U10" pin="3" pintype="no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U10-Pad4)">
+      <node ref="U10" pin="4" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

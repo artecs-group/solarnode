@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "USB4110-GF-A_REVB")(type "KiCad")(uri "C:/Users/manue/Downloads/USB4110-GF-A_REVB")(options "")(descr ""))
+  (lib (name "SolarNode")(type "KiCad")(uri "C:/Users/manue/Documents/Trabajo/UCM Investigacion/2021/SolarNode/SolarNode.pretty")(options "")(descr ""))
+)
